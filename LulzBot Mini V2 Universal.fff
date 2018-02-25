@@ -1,0 +1,574 @@
+<?xml version="1.0"?>
+<profile name="LulzBot Mini V2 Universal" version="2016-04-08 12:53:43" app="S3D-Software 3.0.2">
+  <baseProfile>LulzBot Mini</baseProfile>
+  <printMaterial>ABS</printMaterial>
+  <printQuality>Medium</printQuality>
+  <printExtruders></printExtruders>
+  <extruder name="Primary Extruder">
+    <toolheadNumber>0</toolheadNumber>
+    <diameter>0.5</diameter>
+    <autoWidth>1</autoWidth>
+    <width>0.6</width>
+    <extrusionMultiplier>1</extrusionMultiplier>
+    <useRetract>1</useRetract>
+    <retractionDistance>1.5</retractionDistance>
+    <extraRestartDistance>0</extraRestartDistance>
+    <retractionZLift>0.1</retractionZLift>
+    <retractionSpeed>900</retractionSpeed>
+    <useCoasting>0</useCoasting>
+    <coastingDistance>0.1</coastingDistance>
+    <useWipe>0</useWipe>
+    <wipeDistance>2.5</wipeDistance>
+  </extruder>
+  <primaryExtruder>0</primaryExtruder>
+  <layerHeight>0.2501</layerHeight>
+  <topSolidLayers>4</topSolidLayers>
+  <bottomSolidLayers>3</bottomSolidLayers>
+  <perimeterOutlines>2</perimeterOutlines>
+  <printPerimetersInsideOut>1</printPerimetersInsideOut>
+  <startPointOption>2</startPointOption>
+  <startPointOriginX>0</startPointOriginX>
+  <startPointOriginY>0</startPointOriginY>
+  <startPointOriginZ>300</startPointOriginZ>
+  <sequentialIslands>0</sequentialIslands>
+  <spiralVaseMode>0</spiralVaseMode>
+  <firstLayerHeightPercentage>150</firstLayerHeightPercentage>
+  <firstLayerWidthPercentage>110</firstLayerWidthPercentage>
+  <firstLayerUnderspeed>0.3</firstLayerUnderspeed>
+  <useRaft>0</useRaft>
+  <raftExtruder>0</raftExtruder>
+  <raftLayers>3</raftLayers>
+  <raftOffset>3</raftOffset>
+  <raftSeparationDistance>0.14</raftSeparationDistance>
+  <raftInfill>85</raftInfill>
+  <disableRaftBaseLayers>0</disableRaftBaseLayers>
+  <useSkirt>1</useSkirt>
+  <skirtExtruder>0</skirtExtruder>
+  <skirtLayers>1</skirtLayers>
+  <skirtOutlines>2</skirtOutlines>
+  <skirtOffset>3</skirtOffset>
+  <usePrimePillar>0</usePrimePillar>
+  <primePillarExtruder>999</primePillarExtruder>
+  <primePillarWidth>12</primePillarWidth>
+  <primePillarLocation>7</primePillarLocation>
+  <primePillarSpeedMultiplier>1</primePillarSpeedMultiplier>
+  <useOozeShield>0</useOozeShield>
+  <oozeShieldExtruder>999</oozeShieldExtruder>
+  <oozeShieldOffset>2</oozeShieldOffset>
+  <oozeShieldOutlines>1</oozeShieldOutlines>
+  <oozeShieldSidewallShape>1</oozeShieldSidewallShape>
+  <oozeShieldSidewallAngle>30</oozeShieldSidewallAngle>
+  <oozeShieldSpeedMultiplier>1</oozeShieldSpeedMultiplier>
+  <infillExtruder>0</infillExtruder>
+  <internalInfillPattern>Rectilinear</internalInfillPattern>
+  <externalInfillPattern>Rectilinear</externalInfillPattern>
+  <infillPercentage>20</infillPercentage>
+  <outlineOverlapPercentage>25</outlineOverlapPercentage>
+  <infillExtrusionWidthPercentage>180</infillExtrusionWidthPercentage>
+  <minInfillLength>2</minInfillLength>
+  <infillLayerInterval>1</infillLayerInterval>
+  <infillAngles>45,-45</infillAngles>
+  <overlapInfillAngles>0</overlapInfillAngles>
+  <generateSupport>0</generateSupport>
+  <supportExtruder>0</supportExtruder>
+  <supportInfillPercentage>30</supportInfillPercentage>
+  <supportExtraInflation>0</supportExtraInflation>
+  <denseSupportLayers>0</denseSupportLayers>
+  <denseSupportInfillPercentage>70</denseSupportInfillPercentage>
+  <supportLayerInterval>1</supportLayerInterval>
+  <supportHorizontalPartOffset>0.3</supportHorizontalPartOffset>
+  <supportUpperSeparationLayers>1</supportUpperSeparationLayers>
+  <supportLowerSeparationLayers>1</supportLowerSeparationLayers>
+  <supportType>0</supportType>
+  <supportGridSpacing>4</supportGridSpacing>
+  <maxOverhangAngle>45</maxOverhangAngle>
+  <supportAngles>0</supportAngles>
+  <temperatureController name="Primary Extruder">
+    <temperatureNumber>0</temperatureNumber>
+    <isHeatedBed>0</isHeatedBed>
+    <relayBetweenLayers>0</relayBetweenLayers>
+    <relayBetweenLoops>0</relayBetweenLoops>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <setpoint layer="1" temperature="240"/>
+  </temperatureController>
+  <temperatureController name="Heated Bed">
+    <temperatureNumber>0</temperatureNumber>
+    <isHeatedBed>1</isHeatedBed>
+    <relayBetweenLayers>0</relayBetweenLayers>
+    <relayBetweenLoops>0</relayBetweenLoops>
+    <stabilizeAtStartup>1</stabilizeAtStartup>
+    <setpoint layer="1" temperature="100"/>
+  </temperatureController>
+  <fanSpeed>
+    <setpoint layer="1" speed="0"/>
+    <setpoint layer="3" speed="40"/>
+  </fanSpeed>
+  <blipFanToFullPower>1</blipFanToFullPower>
+  <adjustSpeedForCooling>1</adjustSpeedForCooling>
+  <minSpeedLayerTime>15</minSpeedLayerTime>
+  <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+  <increaseFanForCooling>1</increaseFanForCooling>
+  <minFanLayerTime>15</minFanLayerTime>
+  <maxCoolingFanSpeed>60</maxCoolingFanSpeed>
+  <increaseFanForBridging>1</increaseFanForBridging>
+  <bridgingFanSpeed>70</bridgingFanSpeed>
+  <use5D>1</use5D>
+  <relativeEdistances>0</relativeEdistances>
+  <allowEaxisZeroing>1</allowEaxisZeroing>
+  <independentExtruderAxes>0</independentExtruderAxes>
+  <includeM10123>0</includeM10123>
+  <stickySupport>1</stickySupport>
+  <applyToolheadOffsets>0</applyToolheadOffsets>
+  <gcodeXoffset>0</gcodeXoffset>
+  <gcodeYoffset>0</gcodeYoffset>
+  <gcodeZoffset>0</gcodeZoffset>
+  <overrideMachineDefinition>1</overrideMachineDefinition>
+  <machineTypeOverride>0</machineTypeOverride>
+  <strokeXoverride>152</strokeXoverride>
+  <strokeYoverride>152</strokeYoverride>
+  <strokeZoverride>158</strokeZoverride>
+  <originOffsetXoverride>0</originOffsetXoverride>
+  <originOffsetYoverride>0</originOffsetYoverride>
+  <originOffsetZoverride>0</originOffsetZoverride>
+  <homeXdirOverride>-1</homeXdirOverride>
+  <homeYdirOverride>-1</homeYdirOverride>
+  <homeZdirOverride>1</homeZdirOverride>
+  <flipXoverride>1</flipXoverride>
+  <flipYoverride>-1</flipYoverride>
+  <flipZoverride>1</flipZoverride>
+  <toolheadOffsets>0,0|0,0|0,0|0,0|0,0|0,0</toolheadOffsets>
+  <overrideFirmwareConfiguration>1</overrideFirmwareConfiguration>
+  <firmwareTypeOverride>RepRap (Marlin/Repetier/Sprinter)</firmwareTypeOverride>
+  <GPXconfigOverride>r2</GPXconfigOverride>
+  <baudRateOverride>115200</baudRateOverride>
+  <overridePrinterModels>0</overridePrinterModels>
+  <printerModelsOverride></printerModelsOverride>
+  <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S150		; set and wait for RETRACT TEMP (ABS=150),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S170		; set and wait for CLEANING TEMP (ABS=170),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0 F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S170		; set to PROBING TEMP (ABS=170),M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+  <layerChangeGcode></layerChangeGcode>
+  <retractionGcode></retractionGcode>
+  <toolChangeGcode></toolChangeGcode>
+  <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R50		; Set and wait for PEI BED REMOVAL TEMP (ABS=50),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off,</endingGcode>
+  <createX3G>0</createX3G>
+  <celebration>0</celebration>
+  <celebrationSong>Random Song</celebrationSong>
+  <createMB5G>0</createMB5G>
+  <postProcessing></postProcessing>
+  <defaultSpeed>3000</defaultSpeed>
+  <outlineUnderspeed>0.75</outlineUnderspeed>
+  <solidInfillUnderspeed>0.75</solidInfillUnderspeed>
+  <supportUnderspeed>0.8</supportUnderspeed>
+  <rapidXYspeed>10500</rapidXYspeed>
+  <rapidZspeed>480</rapidZspeed>
+  <minBridgingArea>50</minBridgingArea>
+  <bridgingExtraInflation>0</bridgingExtraInflation>
+  <bridgingExtrusionMultiplier>1</bridgingExtrusionMultiplier>
+  <bridgingSpeedMultiplier>1</bridgingSpeedMultiplier>
+  <filamentDiameter>2.87</filamentDiameter>
+  <filamentPricePerKg>43</filamentPricePerKg>
+  <filamentDensity>1.04</filamentDensity>
+  <useMinPrintHeight>0</useMinPrintHeight>
+  <minPrintHeight>0</minPrintHeight>
+  <useMaxPrintHeight>0</useMaxPrintHeight>
+  <maxPrintHeight>0</maxPrintHeight>
+  <useDiaphragm>0</useDiaphragm>
+  <diaphragmLayerInterval>20</diaphragmLayerInterval>
+  <robustSlicing>0</robustSlicing>
+  <mergeAllIntoSolid>0</mergeAllIntoSolid>
+  <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+  <retractBetweenLayers>0</retractBetweenLayers>
+  <useRetractionMinTravel>1</useRetractionMinTravel>
+  <retractionMinTravel>1.5</retractionMinTravel>
+  <retractWhileWiping>1</retractWhileWiping>
+  <onlyWipeOutlines>1</onlyWipeOutlines>
+  <avoidCrossingOutline>0</avoidCrossingOutline>
+  <maxMovementDetourFactor>3</maxMovementDetourFactor>
+  <toolChangeRetractionDistance>0</toolChangeRetractionDistance>
+  <toolChangeExtraRestartDistance>0</toolChangeExtraRestartDistance>
+  <toolChangeRetractionSpeed>600</toolChangeRetractionSpeed>
+  <allowThinWallGapFill>1</allowThinWallGapFill>
+  <thinWallAllowedOverlapPercentage>10</thinWallAllowedOverlapPercentage>
+  <horizontalSizeCompensation>0</horizontalSizeCompensation>
+  <autoConfigureMaterial name="ABS">
+    <firstLayerWidthPercentage>110</firstLayerWidthPercentage>
+    <firstLayerUnderspeed>0.3</firstLayerUnderspeed>
+    <globalExtruderTemperature>240</globalExtruderTemperature>
+    <globalBedTemperature>100</globalBedTemperature>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="3" speed="40"/>
+    </fanSpeed>
+    <adjustSpeedForCooling>1</adjustSpeedForCooling>
+    <minSpeedLayerTime>15</minSpeedLayerTime>
+    <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+    <increaseFanForCooling>1</increaseFanForCooling>
+    <minFanLayerTime>15</minFanLayerTime>
+    <maxCoolingFanSpeed>60</maxCoolingFanSpeed>
+    <increaseFanForBridging>1</increaseFanForBridging>
+    <bridgingFanSpeed>70</bridgingFanSpeed>
+    <defaultSpeed>3000</defaultSpeed>
+    <filamentDiameter>2.87</filamentDiameter>
+    <filamentPricePerKg>43</filamentPricePerKg>
+    <filamentDensity>1.04</filamentDensity>
+    <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S150		; set and wait for RETRACT TEMP (ABS=150),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S170		; set and wait for CLEANING TEMP (ABS=170),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0 F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S170		; set to PROBING TEMP (ABS=170),M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+    <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R50		; Set and wait for PEI BED REMOVAL TEMP (ABS=50),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off,</endingGcode>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="HIPS">
+    <firstLayerWidthPercentage>105</firstLayerWidthPercentage>
+    <firstLayerUnderspeed>0.3</firstLayerUnderspeed>
+    <globalExtruderTemperature>240</globalExtruderTemperature>
+    <globalBedTemperature>90</globalBedTemperature>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="40"/>
+    </fanSpeed>
+    <adjustSpeedForCooling>1</adjustSpeedForCooling>
+    <minSpeedLayerTime>20</minSpeedLayerTime>
+    <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+    <increaseFanForCooling>1</increaseFanForCooling>
+    <minFanLayerTime>20</minFanLayerTime>
+    <maxCoolingFanSpeed>50</maxCoolingFanSpeed>
+    <increaseFanForBridging>1</increaseFanForBridging>
+    <bridgingFanSpeed>60</bridgingFanSpeed>
+    <defaultSpeed>3000</defaultSpeed>
+    <filamentDiameter>2.93</filamentDiameter>
+    <filamentPricePerKg>25</filamentPricePerKg>
+    <filamentDensity>1.04</filamentDensity>
+    <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S150		; set and wait for RETRACT TEMP (HIPS=150),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S170		; set and wait for CLEANING TEMP (HIPS=170),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0  F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S170		; set to PROBING TEMP (HIPS=170),M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+    <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R50		; Set and wait for PEI BED REMOVAL TEMP (HIPS=50),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off</endingGcode>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="PLA">
+    <firstLayerWidthPercentage>110</firstLayerWidthPercentage>
+    <firstLayerUnderspeed>0.3</firstLayerUnderspeed>
+    <globalExtruderTemperature>205</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="75"/>
+    </fanSpeed>
+    <adjustSpeedForCooling>1</adjustSpeedForCooling>
+    <minSpeedLayerTime>20</minSpeedLayerTime>
+    <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+    <increaseFanForCooling>1</increaseFanForCooling>
+    <minFanLayerTime>20</minFanLayerTime>
+    <maxCoolingFanSpeed>100</maxCoolingFanSpeed>
+    <increaseFanForBridging>1</increaseFanForBridging>
+    <bridgingFanSpeed>100</bridgingFanSpeed>
+    <defaultSpeed>3000</defaultSpeed>
+    <filamentDiameter>2.85</filamentDiameter>
+    <filamentPricePerKg>75</filamentPricePerKg>
+    <filamentDensity>1.25</filamentDensity>
+    <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S140		; set and wait for RETRACT TEMP (PLA=140),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S140		; set and wait for CLEANING TEMP (PLA=140),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0  F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S140		; set to PROBING TEMP (PLA=140),M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+    <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R45		; Set and wait for BED REMOVAL TEMP (PLA=45),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off,</endingGcode>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="Alloy 910">
+    <firstLayerWidthPercentage>110</firstLayerWidthPercentage>
+    <firstLayerUnderspeed>0.25</firstLayerUnderspeed>
+    <globalExtruderTemperature>250</globalExtruderTemperature>
+    <globalBedTemperature>75</globalBedTemperature>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+    </fanSpeed>
+    <adjustSpeedForCooling>1</adjustSpeedForCooling>
+    <minSpeedLayerTime>8</minSpeedLayerTime>
+    <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+    <increaseFanForCooling>1</increaseFanForCooling>
+    <minFanLayerTime>8</minFanLayerTime>
+    <maxCoolingFanSpeed>40</maxCoolingFanSpeed>
+    <increaseFanForBridging>1</increaseFanForBridging>
+    <bridgingFanSpeed>80</bridgingFanSpeed>
+    <defaultSpeed>2700</defaultSpeed>
+    <filamentDiameter>2.94</filamentDiameter>
+    <filamentPricePerKg>75</filamentPricePerKg>
+    <filamentDensity>0.97</filamentDensity>
+    <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S160		; set and wait for RETRACT TEMP (ALLOY910=160),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S170		; set and wait for CLEANING TEMP (ALLOY910=170),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0  F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S170		; set to PROBING TEMP (ALLOY910=170),M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+    <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R50		; Set and wait for PEI BED REMOVAL TEMP (ALLOY 910=50),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off,</endingGcode>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="T-Glase (Choose Clarity or Strength!)">
+    <firstLayerWidthPercentage>120</firstLayerWidthPercentage>
+    <firstLayerUnderspeed>0.5</firstLayerUnderspeed>
+    <globalExtruderTemperature>240</globalExtruderTemperature>
+    <globalBedTemperature>60</globalBedTemperature>
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.5</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.6</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>1.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.1</retractionZLift>
+      <retractionSpeed>900</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.1</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>2.5</wipeDistance>
+    </extruder>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="2" speed="40"/>
+    </fanSpeed>
+    <adjustSpeedForCooling>1</adjustSpeedForCooling>
+    <minSpeedLayerTime>45</minSpeedLayerTime>
+    <minCoolingSpeedSlowdown>15</minCoolingSpeedSlowdown>
+    <increaseFanForCooling>1</increaseFanForCooling>
+    <minFanLayerTime>45</minFanLayerTime>
+    <maxCoolingFanSpeed>50</maxCoolingFanSpeed>
+    <increaseFanForBridging>1</increaseFanForBridging>
+    <bridgingFanSpeed>60</bridgingFanSpeed>
+    <defaultSpeed>1200</defaultSpeed>
+    <filamentDiameter>2.8</filamentDiameter>
+    <filamentPricePerKg>75</filamentPricePerKg>
+    <filamentDensity>0.97</filamentDensity>
+    <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S150		; set and wait for RETRACT TEMP (TGLASE=150),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S160		; set and wait for CLEANING TEMP (TGLASE=160),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0  F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S160		; set to PROBING TEMP (TGLASE=160),M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+    <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R45		; Set and wait for PEI BED REMOVAL TEMP (TGLASE=45),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off,</endingGcode>
+  </autoConfigureMaterial>
+  <autoConfigureQuality name="High Detail">
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.5</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.6</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>1.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.1</retractionZLift>
+      <retractionSpeed>900</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.1</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>2.5</wipeDistance>
+    </extruder>
+    <layerHeight>0.1801</layerHeight>
+    <topSolidLayers>6</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
+    <firstLayerHeightPercentage>200</firstLayerHeightPercentage>
+    <startPointOption>2</startPointOption>
+    <startPointOriginX>0</startPointOriginX>
+    <startPointOriginY>0</startPointOriginY>
+    <startPointOriginZ>300</startPointOriginZ>
+    <infillPercentage>40</infillPercentage>
+    <supportInfillPercentage>40</supportInfillPercentage>
+    <perimeterOutlines>2</perimeterOutlines>
+    <outlineOverlapPercentage>30</outlineOverlapPercentage>
+    <infillExtrusionWidthPercentage>180</infillExtrusionWidthPercentage>
+    <minInfillLength>1</minInfillLength>
+    <onlyRetractWhenCrossingOutline>0</onlyRetractWhenCrossingOutline>
+    <retractBetweenLayers>0</retractBetweenLayers>
+    <useRetractionMinTravel>1</useRetractionMinTravel>
+    <retractionMinTravel>1.5</retractionMinTravel>
+    <retractWhileWiping>1</retractWhileWiping>
+    <outlineUnderspeed>0.6</outlineUnderspeed>
+    <solidInfillUnderspeed>0.6</solidInfillUnderspeed>
+    <supportUnderspeed>0.8</supportUnderspeed>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Medium">
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.5</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.6</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>1.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.1</retractionZLift>
+      <retractionSpeed>900</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.1</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>2.5</wipeDistance>
+    </extruder>
+    <layerHeight>0.2501</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>3</bottomSolidLayers>
+    <firstLayerHeightPercentage>150</firstLayerHeightPercentage>
+    <startPointOption>2</startPointOption>
+    <startPointOriginX>0</startPointOriginX>
+    <startPointOriginY>0</startPointOriginY>
+    <startPointOriginZ>300</startPointOriginZ>
+    <infillPercentage>20</infillPercentage>
+    <supportInfillPercentage>30</supportInfillPercentage>
+    <perimeterOutlines>2</perimeterOutlines>
+    <outlineOverlapPercentage>25</outlineOverlapPercentage>
+    <infillExtrusionWidthPercentage>180</infillExtrusionWidthPercentage>
+    <minInfillLength>2</minInfillLength>
+    <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+    <retractBetweenLayers>0</retractBetweenLayers>
+    <useRetractionMinTravel>1</useRetractionMinTravel>
+    <retractionMinTravel>1.5</retractionMinTravel>
+    <retractWhileWiping>1</retractWhileWiping>
+    <outlineUnderspeed>0.75</outlineUnderspeed>
+    <solidInfillUnderspeed>0.75</solidInfillUnderspeed>
+    <supportUnderspeed>0.8</supportUnderspeed>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="Fast">
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.5</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.6</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>1.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.1</retractionZLift>
+      <retractionSpeed>900</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.1</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>2.5</wipeDistance>
+    </extruder>
+    <layerHeight>0.3001</layerHeight>
+    <topSolidLayers>2</topSolidLayers>
+    <bottomSolidLayers>2</bottomSolidLayers>
+    <firstLayerHeightPercentage>125</firstLayerHeightPercentage>
+    <startPointOption>2</startPointOption>
+    <startPointOriginX>0</startPointOriginX>
+    <startPointOriginY>0</startPointOriginY>
+    <startPointOriginZ>300</startPointOriginZ>
+    <infillPercentage>15</infillPercentage>
+    <supportInfillPercentage>15</supportInfillPercentage>
+    <perimeterOutlines>2</perimeterOutlines>
+    <outlineOverlapPercentage>25</outlineOverlapPercentage>
+    <infillExtrusionWidthPercentage>180</infillExtrusionWidthPercentage>
+    <minInfillLength>3</minInfillLength>
+    <onlyRetractWhenCrossingOutline>1</onlyRetractWhenCrossingOutline>
+    <retractBetweenLayers>0</retractBetweenLayers>
+    <useRetractionMinTravel>1</useRetractionMinTravel>
+    <retractionMinTravel>1.5</retractionMinTravel>
+    <retractWhileWiping>1</retractWhileWiping>
+    <outlineUnderspeed>0.9</outlineUnderspeed>
+    <solidInfillUnderspeed>0.8</solidInfillUnderspeed>
+    <supportUnderspeed>0.9</supportUnderspeed>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="T-Glase Only - Clarity">
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.5</diameter>
+      <autoWidth>0</autoWidth>
+      <width>0.72</width>
+      <extrusionMultiplier>1</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>1.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.15</retractionZLift>
+      <retractionSpeed>900</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.1</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>2.5</wipeDistance>
+    </extruder>
+    <layerHeight>0.5001</layerHeight>
+    <topSolidLayers>2</topSolidLayers>
+    <bottomSolidLayers>2</bottomSolidLayers>
+    <firstLayerHeightPercentage>100</firstLayerHeightPercentage>
+    <startPointOption>2</startPointOption>
+    <startPointOriginX>0</startPointOriginX>
+    <startPointOriginY>0</startPointOriginY>
+    <startPointOriginZ>300</startPointOriginZ>
+    <infillPercentage>30</infillPercentage>
+    <supportInfillPercentage>30</supportInfillPercentage>
+    <perimeterOutlines>2</perimeterOutlines>
+    <outlineOverlapPercentage>15</outlineOverlapPercentage>
+    <infillExtrusionWidthPercentage>130</infillExtrusionWidthPercentage>
+    <minInfillLength>3</minInfillLength>
+    <onlyRetractWhenCrossingOutline>0</onlyRetractWhenCrossingOutline>
+    <retractBetweenLayers>0</retractBetweenLayers>
+    <useRetractionMinTravel>0</useRetractionMinTravel>
+    <retractionMinTravel>1.5</retractionMinTravel>
+    <retractWhileWiping>1</retractWhileWiping>
+    <outlineUnderspeed>0.75</outlineUnderspeed>
+    <solidInfillUnderspeed>0.5</solidInfillUnderspeed>
+    <supportUnderspeed>0.8</supportUnderspeed>
+  </autoConfigureQuality>
+  <autoConfigureQuality name="T-Glase Only (Strength)">
+    <extruder name="Primary Extruder">
+      <toolheadNumber>0</toolheadNumber>
+      <diameter>0.5</diameter>
+      <autoWidth>1</autoWidth>
+      <width>0.6</width>
+      <extrusionMultiplier>0.98</extrusionMultiplier>
+      <useRetract>1</useRetract>
+      <retractionDistance>1.5</retractionDistance>
+      <extraRestartDistance>0</extraRestartDistance>
+      <retractionZLift>0.1</retractionZLift>
+      <retractionSpeed>900</retractionSpeed>
+      <useCoasting>0</useCoasting>
+      <coastingDistance>0.1</coastingDistance>
+      <useWipe>0</useWipe>
+      <wipeDistance>2.5</wipeDistance>
+    </extruder>
+    <layerHeight>0.3001</layerHeight>
+    <topSolidLayers>4</topSolidLayers>
+    <bottomSolidLayers>4</bottomSolidLayers>
+    <firstLayerHeightPercentage>125</firstLayerHeightPercentage>
+    <startPointOption>2</startPointOption>
+    <startPointOriginX>0</startPointOriginX>
+    <startPointOriginY>0</startPointOriginY>
+    <startPointOriginZ>300</startPointOriginZ>
+    <infillPercentage>95</infillPercentage>
+    <supportInfillPercentage>30</supportInfillPercentage>
+    <perimeterOutlines>3</perimeterOutlines>
+    <outlineOverlapPercentage>20</outlineOverlapPercentage>
+    <infillExtrusionWidthPercentage>130</infillExtrusionWidthPercentage>
+    <minInfillLength>2</minInfillLength>
+    <onlyRetractWhenCrossingOutline>0</onlyRetractWhenCrossingOutline>
+    <retractBetweenLayers>0</retractBetweenLayers>
+    <useRetractionMinTravel>1</useRetractionMinTravel>
+    <retractionMinTravel>1.5</retractionMinTravel>
+    <retractWhileWiping>1</retractWhileWiping>
+    <outlineUnderspeed>0.75</outlineUnderspeed>
+    <solidInfillUnderspeed>0.5</solidInfillUnderspeed>
+    <supportUnderspeed>0.8</supportUnderspeed>
+  </autoConfigureQuality>
+  <autoConfigureMaterial name="PETG">
+    <firstLayerWidthPercentage>97</firstLayerWidthPercentage>
+    <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
+    <globalExtruderTemperature>245</globalExtruderTemperature>
+    <globalBedTemperature>70</globalBedTemperature>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="3" speed="40"/>
+    </fanSpeed>
+    <adjustSpeedForCooling>1</adjustSpeedForCooling>
+    <minSpeedLayerTime>15</minSpeedLayerTime>
+    <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+    <increaseFanForCooling>1</increaseFanForCooling>
+    <minFanLayerTime>15</minFanLayerTime>
+    <maxCoolingFanSpeed>75</maxCoolingFanSpeed>
+    <increaseFanForBridging>1</increaseFanForBridging>
+    <bridgingFanSpeed>100</bridgingFanSpeed>
+    <defaultSpeed>2400</defaultSpeed>
+    <filamentDiameter>2.95</filamentDiameter>
+    <filamentPricePerKg>28</filamentPricePerKg>
+    <filamentDensity>1.27</filamentDensity>
+    <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S160		; set and wait for RETRACT TEMP (PETG=160),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S170		; set and wait for CLEANING TEMP (PETG=170),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0  F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S170		; set to PROBING TEMP (PETG=170),M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+    <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R50		; Set and wait for PEI BED REMOVAL TEMP (PETG=50),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off,</endingGcode>
+  </autoConfigureMaterial>
+  <autoConfigureMaterial name="NGen">
+    <firstLayerWidthPercentage>97</firstLayerWidthPercentage>
+    <firstLayerUnderspeed>0.4</firstLayerUnderspeed>
+    <globalExtruderTemperature>225</globalExtruderTemperature>
+    <globalBedTemperature>70</globalBedTemperature>
+    <fanSpeed>
+      <setpoint layer="1" speed="0"/>
+      <setpoint layer="3" speed="40"/>
+    </fanSpeed>
+    <adjustSpeedForCooling>1</adjustSpeedForCooling>
+    <minSpeedLayerTime>15</minSpeedLayerTime>
+    <minCoolingSpeedSlowdown>20</minCoolingSpeedSlowdown>
+    <increaseFanForCooling>1</increaseFanForCooling>
+    <minFanLayerTime>15</minFanLayerTime>
+    <maxCoolingFanSpeed>75</maxCoolingFanSpeed>
+    <increaseFanForBridging>1</increaseFanForBridging>
+    <bridgingFanSpeed>100</bridgingFanSpeed>
+    <defaultSpeed>2400</defaultSpeed>
+    <filamentDiameter>2.82</filamentDiameter>
+    <filamentPricePerKg>60</filamentPricePerKg>
+    <filamentDensity>1.36</filamentDensity>
+    <startingGcode>G21		; metric values,G90		; absolute positioning,M82		; set extruder to absolute mode,M107		; start with the fan off,G92 E0		; set extruder position to 0,M140 S[bed0_temperature]	; begin bed heating,G28		; home all,M109 S160		; set and wait for RETRACT TEMP (NGEN=160),G1 Z150 E-30 F75	; suck up 30mm of filament,M109 S170		; set and wait for CLEANING TEMP (NGEN=170),G1 X45 Y174 F11520	; move nozzle over wiper pad,G1 Z0  F1200		; CRITICAL: set Z top of pad,G1 X45 Y174 Z-.5 F4000	; wiping ; plunge into wipe pad,G1 X55 Y172 Z-.5 F4000	; wiping,G1 X45 Y174 Z0 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X45 Y174 F4000	; wiping,G1 X55 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X80 Y172 F4000	; wiping,G1 X60 Y174 F4000	; wiping,G1 X90 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X80 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X100 Y172 F4000	; wiping,G1 X110 Y174 F4000	; wiping,G1 X115 Y172 Z-0.5 F1000	; wipe slower and bury nozzle in cleanish area,G1 Z10		; raise z,G28 X0 Y0		; home x and y,M109 S170		; set to PROBING TEMP - NGEN=170,M204 S300		; set accel for probing,G29		; Probe,M204 S2000		; set accel back to normal,G1 X5 Y15 Z10 F5000	; get out the way,M400		; clear buffer,G4 S1		; pause,M140 S[bed0_temperature]	; Set bed temp again,M109 S[extruder0_temperature]	; set extruder temp and wait,M190 S[bed0_temperature]	; wait for bed to finish heating if needed,G1 Z2 E0 F75		; extrude filament back into nozzle,G1 Z2 E5 F75		; extrude a blob to prime nozzle (sw),G1 Z2 E4.5 F600	; retract 0.5mm (sw),G1 X15 Y15 Z10 F5000	;move away from blob so S3D doesn't plunge into it (sw),G92 E0		; reset extruder position to 0 (sw),</startingGcode>
+    <endingGcode>M400		; wait for operations to complete,M104 S0		; hotend off,M140 S0		; bed heater off ,M107		; fans off,G92 E3		; set extruder to 3 (will cause -3 retraction in next command),G1 X90 Y5 Z159 E0 F5000	; move to cooling position and retract filament to relieve pressure,M190 R50		; Set and wait for PEI BED REMOVAL TEMP (NGEN=50),G1 Y175 F1000		; move to cooled position,M84		; steppers off,G90		; absolute positioning,G4 S7200		; hold bed temp for 2 hours (s=time in seconds),M140 S0		; bed heater off,</endingGcode>
+  </autoConfigureMaterial>
+</profile>
